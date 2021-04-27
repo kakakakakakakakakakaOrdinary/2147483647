@@ -1,0 +1,117 @@
+
+
+.header h3{
+    font-size: 30px;
+    float:left;
+    line-height:  10px;
+    padding: 0 0 0 10px;
+}
+.header ul{
+    float: right;
+    list-style: none;
+    padding-right: 20px;
+    font-size :10px;
+}
+.header{
+    background-color: #096815;
+    height: 60px;
+    color: white;
+}
+.top-wrapper{
+ text-align: center;
+}
+.contents-wrapper h2{
+    border-top:black;
+    box-align: center;
+}
+.contents-wrapper ul{
+    display: flex;
+}
+.contents-wrapper li{
+    padding:0 10px;
+    list-style: none;
+}
+ .mini-game h1{
+    text-align: center;
+ }
+ .game-title p{
+     text-align: center;
+ }
+ .mini-game{
+     border: 20px #847584 solid;
+     height: 950px;
+ }
+ .game-btn{
+     float: left;
+     margin: 70px 0 0 60px;
+     height: 90px;
+ }
+ .game-btn a{
+     padding: 40px 60px 40px 60px;
+     text-align: center;
+     margin: 70px 30px 0 35px;
+     font-size: 20px;
+     background-color: cornflowerblue;
+     border-radius: 30px;
+     font-size: 40px;
+     color: white;
+     box-shadow: 0px 6px #000;
+     cursor: pointer;
+ }
+ .game-btn-top{
+     float: left;
+     padding: 30px;
+     margin: 0 auto;
+     margin-top: 50px;
+ }
+ .game-btn-down{
+     float: left;
+     padding: 30px;
+     margin-top: 50px;
+     margin-bottom: 80px;
+ }
+ .game-btn-top a{
+    padding: 30px 50px 30px 50px;
+    margin: 100px;
+    background-color: crimson;
+    border-radius: 30px;
+    font-size: 50px;
+    color: white;
+ }
+ .game-btn-down a{
+    padding: 30px 50px 30px 50px;
+    margin: 100px;
+    background-color: crimson;
+    border-radius: 30px;
+    font-size: 50px;
+    color: white;
+ }
+ .game-btn a:active{
+     position: relative;
+     top: 6px;
+     box-shadow: none;
+ }
+ .answer{
+     text-align: center;
+ }
+ .answer p{
+     display: none;
+     margin-top: 20px;
+     font-size: 60px;
+ }
+ .answer a{
+     background-color: rgb(24, 100, 24);
+     padding: 20px 50px;
+     border-radius: 20px;
+     color: white;
+     font-size: 50px;
+     margin: 3900px 100px 0px 100px;
+     box-shadow: 0px 6px #000;
+     cursor: pointer;
+ }
+ .answer a:active{
+    position: relative;
+    top: 6px;
+    box-shadow: none;
+}
+  
