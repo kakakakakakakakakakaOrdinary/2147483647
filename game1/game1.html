@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ゲーム１</title>
+        <link rel="stylesheet" href="game1.css">
+        <link rel="stylesheet" href="game1.responsive.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="mini-game">
+            <div class="game-title">
+            <h1 id="gameone">ミニゲーム</h1>
+            <P>A~Fのボタンをクリックすると、1~8の数字の背景の色が変わります。1,5を赤色に、2,6を黄色に、3,7を緑色に、4,8を青色にすればクリアです。</P>
+            <P>やり直したいときは、再読み込みして下さい。</P>
+            <P>使用機器の種類によっては画面が変な感じになりますが許してください。</P>
+            <a>スマホの方は横向きに持たないと、画面が変な感じになります。</a>
+            </div>
+            <div class="game-btn">
+                <a id="a" class="btn">A</a>
+                <a id="b" class="btn">B</a>
+                <a id="c" class="btn">C</a>
+                <a id="d" class="btn">D</a>
+                <a id="e" class="btn">E</a>
+                <a id="f" class="btn">F</a>
+            </div>
+            <div class="game-btn-top">
+                <a id="one">1</a>
+                <a id="two">2</a>
+                <a id="three">3</a>
+                <a id="four">4</a>
+            </div>
+            <div class="game-btn-down">
+                <a id="five">5</a>
+                <a id="six">6</a>
+                <a id="seven">7</a>
+                <a id="eight">8</a>
+            </div>
+            <div class="answer">
+                <a id="answer" class="btn">答え</a>
+                <p id="answer-main">B→E→C→D→F→A</p>
+            </div>
+        </div>
+        <script type="text/javascript" src="game1.js"></script>
+    </body>
+</html>
