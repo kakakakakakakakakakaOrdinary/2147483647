@@ -1,0 +1,25 @@
+@media (max-width:1000px){
+    .header{
+        background-color: #899208;
+    }
+    .contents-wrapper ul{
+        flex-wrap: wrap;
+    }
+    .contents-wrapper li{
+        width: 50%;
+    }
+    .game-list{
+        height: 200px;
+    }
+    .game{
+        width: 25%;
+    }
+}
+@media (max-width:670px){
+   .header{
+       background-color: #483d8b;
+   }
+   .contents-list{
+       flex-direction: column;
+   }
+}
